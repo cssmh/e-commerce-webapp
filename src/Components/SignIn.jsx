@@ -2,26 +2,15 @@ import React from "react";
 import { FaGoogle, FaApple } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div className="flex min-h-screen max-w-7xl mx-auto">
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4 text-center">
-          Welcome to <br /> Furni<span className="text-blue-500">Flex</span>
+        <h1 className="text-3xl font-bold text-gray-800 mb-1 text-center">
+          Welcome Back!
         </h1>
+        <p className="mb-3">Enter your credential to access your account</p>
         <form className="w-full max-w-md">
-          <div className="flex gap-2 mb-4">
-            <input
-              type="text"
-              placeholder="First Name"
-              className="w-1/2 p-2 border border-gray-300 rounded-md focus:outline-none focus:border-gray-500"
-            />
-            <input
-              type="text"
-              placeholder="Last Name"
-              className="w-1/2 p-2 border border-gray-300 rounded-md focus:outline-none focus:border-gray-500"
-            />
-          </div>
           <div className="mb-4">
             <input
               type="email"
@@ -74,4 +63,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;
